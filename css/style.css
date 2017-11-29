@@ -22,19 +22,19 @@ header{
 .nav{
 	position: inherit;
 }
-.nav_menu{
+.nav__menu{
 	list-style-type: none;
 	float: left;
 	margin-top: 33px;
 	margin-left: 330px;
 }
-.nav_menu_li{
+.nav__menu_li{
 	display: inline-block;
 	margin-right: 20px;
 	font-size: 1.2em;
 	color: #343e5c;
 }
-.nav_a{
+.nav__a{
 	text-decoration: none;
 	color: #343e5c;
 }
@@ -43,24 +43,24 @@ header{
 	margin-right: 180px;
 }
 
-.market_corsines{
+.market__corsines{
 	float: left;
 
 }
-.market_img{
+.market__img{
 	float: left;
 	margin-top: 33px;
 	margin-right: 40px;
 	
 }
 
-.market_cart{
+.market__cart{
 	float: left;
 	margin-top: 33px;
 	text-transform: uppercase;
 }
 
-.market_number{
+.market__number{
 	float: right;
 	margin-top: 22px;
 	margin-left: 20px;
@@ -73,7 +73,7 @@ header{
 	margin-right: 50px;
 }
 
-.market_button{
+.market__button{
 	float: right;
 	border-radius: 16px;
 	border:solid  2px #e3e8f0;
@@ -102,43 +102,43 @@ header{
 	margin-top: 30px;
 }
 
-.menu_navigation{
+.menu__navigation{
 	margin-left: 140px;
 	list-style-type: none;
 }
 
-.menu_href{
+.menu__href{
 	float: left;
 	margin-right: 20px;
 	
 }
 
-.menu_post{
+.menu__post{
 	text-decoration: none;
 	color: #b9bed1;
 	text-transform: uppercase;
 }
 
-.menu_post:hover{
+.menu__post:hover{
 	color: #343e5c;
 }
 
-.support_post{
+.support__post{
 	text-decoration: none;
 	color: #b9bed1;
 	text-transform: uppercase;
 	margin-left: 700px;
 }
 
-.support_post:hover{
+.support__post:hover{
 	color: #343e5c;
 }
 
-.support_img{
+.support__img{
 	margin-left: 50px;
 }
 
-.support_input{
+.support__input{
 	margin-left: 10px;
 	border: 0px solid;
 	width: 130px;
@@ -150,22 +150,22 @@ header{
 	width: 100%;
 	}
 
-.article_contanier{
+.article__contanier{
 	margin-top: 40px;
 	background: #1c1e23;
 	width: 100%;
 	padding: 0px 400px 0px 400px;
 }
 
-.article_h1{
+.article__h1{
 	color: #fff;
 	font-size: 42px;
 }
 
-.article_text{
+.article__text{
 	color: #fff;
 }
-.article_button{
+.article__button{
 	background: #2754eb;
 	border-radius: 21px;
 	border: none;
@@ -175,17 +175,17 @@ header{
 	float: left;
 	margin-top: 70px;
 }
-.article_contanier3{
+.article__contanierLeft{
 	margin-right: 450px;
 	margin-top: 70px;
 	float: left;
 }
 
-.article_contanier2{
+.article__contanierGeneral{
 	overflow: hidden;
 	height: 500px;
 }
 
-.article_contanier4{
+.article__contanierRight{
 	margin-top: -60px;
 }
