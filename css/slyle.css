@@ -1,0 +1,33 @@
+body{
+	background: #f3f5f7;
+}
+.margin{
+	height: 40%;
+	width: 100%
+}
+.text-center{
+	text-align: center;
+}
+.title_text{
+	color: #3b3f6a;
+}
+
+.corob_elem_1_h2{
+	padding-top: 10%;
+}
+
+.corob_elem_2_h2{
+	padding-top: 14%;
+}
+
+.corob_elem_3_h2{
+	padding-top: 18%;
+}
+
+.corob_elem_4_h2{
+	padding-top: 8%;
+}
+.title_text{
+	padding: 5% 0 8% 0;
+}
+

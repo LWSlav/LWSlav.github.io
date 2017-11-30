@@ -1,56 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>5 урок</title>
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<header class="row">
-		<div class="logo"><img src="img/лого.png" alt=""></div>
-		<nav class="nav">
-			<ul class="nav__menu">
-				<li class="nav__menu_li"><a class = "nav__a" href="#">Home</a></li>
-				<li class="nav__menu_li"><a class = "nav__a" href="#">Devices</a></li>
-				<li class="nav__menu_li"><a class = "nav__a" href="#">Delivery & Payment</a></li>
-				<li class="nav__menu_li"><a class = "nav__a" href="#">Guarantee</a></li>
-				<li class="nav__menu_li"><a class = "nav__a" href="#">About Us</a></li>
-			</ul>
-		</nav>
-		<div class="market">
-			<div class="market__corsines"><img class="market__img" src="img/корзина.png" alt=""><span class="market__cart">cart</span><div class="market__number">0</div>
-			</div>
-			<button class="market__button">sing in</button>
-		</div>
-		<div class="hr"></div>
-		<div class="menu">
-				<ul class="menu__navigation">
-					<li class="menu__href"><a class="menu__post" href="#">Top Sales</a></li>
-					<li class="menu__href"><a class="menu__post" href="#">Brand Focus</a></li>
-					<li class="menu__href"><a class="menu__post"href="#">Hi-tech</a></li>
-					<li class="menu__href"><a class="menu__post" href="#">Projects</a></li>
-					<li class="menu__href"><a class="menu__post" href="#">Best Sellers</a></li>
-				</ul>
-			<div class="support"><a class="support__post" href="#">support</a><img class="support__img" src="img/search.png" alt="">
-				<input class="support__input" type="search" placeholder="Im looking for ..."></div>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
 
-		</div>
-		</header>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.grid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/slyle.css">
 
-		<section class="article row">
-			<div class="article__contanier">
-				<div class="article__contanierGeneral">
-					<div class="article__contanierLeft">
-						<h1 class="article__h1">iPhone 6 32Gb <br> Black</h1>
-						<span class="article__text row">At first, for some time, I was not able to answer him one word;<br> but as he had taken me in his arms I held fast by him, or I should <br> have fallen to the ground.</span>
-						<button class="article__button">Buy Now</button>
-					</div>
-					<div class="article__contanierRight">
-						<img src="img/телефон.png" alt="" class="article__phon">
-					</div>
-				</div>
-			</div>
-		</section>
-			
-</body>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row ">
+        <div class="title text-center">
+          <h1 class="title_text col-lg-12">Почему с нами работают?</h1>
+        </div>
+
+        <div class="corob text-center">
+          <div class="corob_elem  text-center  text-center col-lg-3"><img src="img/кран.png" alt="">
+            <h2 class="corob_elem_1_h2">
+              Позвольте вашим <br>деньгам работать
+            </h2>
+            <span class="corob_elem_1_span">
+              Проценты по договорам <br> займа выше банковских
+            </span>
+          </div>
+          <div class="corob_elem  text-center col-lg-3"><img src="img/шкатулка.png" alt="">
+            <h2 class="corob_elem_2_h2">
+              Зарабатывайте <br> вместе с нами
+            </h2>
+            <span class="corob_elem_2_span">
+              Мы вкладываем <br> собственные средства
+            </span>
+          </div>
+          <div class="corob_elem  text-center col-lg-3"><img src="img/домик.png" alt="">
+            <h2 class="corob_elem_3_h2">
+              Абсолютная <br> надежность
+            </h2>
+            <span class="corob_elem_3_span">
+              Все договоры займа <br> обеспечены залогом
+            </span>
+          </div>
+          <div class="corob_elem  text-center col-lg-3"><img src="img/зонтик.png" alt="">
+            <h2 class="corob_elem_4_h2">
+              Никаких <br>  рисков
+            </h2>
+            <span class="corob_elem_4_h2">
+              Наша профессиональная <br> деятельность застрахована
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
