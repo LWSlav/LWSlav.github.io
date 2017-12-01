@@ -1,191 +1,71 @@
-body{
-	margin: 0;
-	padding: 0;
-}
-.row{
-  content: "";
-  display: table;
-  clear: both;
-}
-header{
-	width: 100%;
-	height: 92px;
-	float: left;
-}
-.logo{
-	position: inherit;
-	margin-left: 180px;
-	margin-top: 30px;
-	float: left;
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/Bebas.eot');
+    src: url('../fonts/Bebas.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Bebas.woff2') format('woff2'),
+        url('../fonts/Bebas.woff') format('woff'),
+        url('../fonts/Bebas.ttf') format('truetype'),
+        url('../fonts/Bebas.svg#Bebas') format('svg');
+    font-weight: normal;
+    font-style: italic;
 }
 
-.nav{
-	position: inherit;
-}
-.nav__menu{
-	list-style-type: none;
-	float: left;
-	margin-top: 33px;
-	margin-left: 330px;
-}
-.nav__menu_li{
-	display: inline-block;
-	margin-right: 20px;
-	font-size: 1.2em;
-	color: #343e5c;
-}
-.nav__a{
-	text-decoration: none;
-	color: #343e5c;
-}
-.market{
-	float: right;
-	margin-right: 180px;
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.eot');
+    src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('woff'),
+        url('../fonts/Lato-Regular.ttf') format('truetype'),
+        url('../fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.market__corsines{
-	float: left;
-
-}
-.market__img{
-	float: left;
-	margin-top: 33px;
-	margin-right: 40px;
-	
-}
-
-.market__cart{
-	float: left;
-	margin-top: 33px;
-	text-transform: uppercase;
+@font-face {
+    font-family: 'Lobster';
+    src: url('../fonts/Lobster.eot');
+    src: url('../fonts/Lobster.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Lobster.woff2') format('woff2'),
+        url('../fonts/Lobster.woff') format('woff'),
+        url('../fonts/Lobster.ttf') format('truetype'),
+        url('../fonts/Lobster.svg#Lobster') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
-.market__number{
-	float: right;
-	margin-top: 22px;
-	margin-left: 20px;
-	border-radius: 50%;
-	background: #e3e8f0;
-	width: 43px;
-	height: 30px;
-	padding-top: 10px;
+
+
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
 	text-align: center;
-	margin-right: 50px;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
 }
 
-.market__button{
-	float: right;
-	border-radius: 16px;
-	border:solid  2px #e3e8f0;
-	padding: 10px;
-	margin-top: 23px;
-	background: #fff;
-	text-transform: uppercase;
-	width: 80px;
-	cursor: pointer;
-	color: #343e5c;
+.Open-Sans{
+	font-family: 'Open Sans', sans-serif;
 }
 
-.hr{
-	background: #f0f2f7;
-	height: 2px;
-	margin-top: 30px;
-	float: left;
-	width: 100%;
+.Bebas{
+	font-family: 'Bebas', sans-serif;
 }
 
-.menu{
-	float: left;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	margin-top: 30px;
+.Lato{
+	font-family: 'Lato', sans-serif;
 }
 
-.menu__navigation{
-	margin-left: 140px;
-	list-style-type: none;
-}
-
-.menu__href{
-	float: left;
-	margin-right: 20px;
+.Lobster{
+	font-family: 'Lobster', sans-serif;
 	
-}
-
-.menu__post{
-	text-decoration: none;
-	color: #b9bed1;
-	text-transform: uppercase;
-}
-
-.menu__post:hover{
-	color: #343e5c;
-}
-
-.support__post{
-	text-decoration: none;
-	color: #b9bed1;
-	text-transform: uppercase;
-	margin-left: 700px;
-}
-
-.support__post:hover{
-	color: #343e5c;
-}
-
-.support__img{
-	margin-left: 50px;
-}
-
-.support__input{
-	margin-left: 10px;
-	border: 0px solid;
-	width: 130px;
-	height: 20px;
-}
-
-.article{
-	float: left;
-	width: 100%;
-	}
-
-.article__contanier{
-	margin-top: 40px;
-	background: #1c1e23;
-	width: 100%;
-	padding: 0px 400px 0px 400px;
-}
-
-.article__h1{
-	color: #fff;
-	font-size: 42px;
-}
-
-.article__text{
-	color: #fff;
-}
-.article__button{
-	background: #2754eb;
-	border-radius: 21px;
-	border: none;
-	color: #fff;
-	padding: 15px 50px 15px 50px;
-	cursor: pointer;
-	float: left;
-	margin-top: 70px;
-}
-.article__contanierLeft{
-	margin-right: 450px;
-	margin-top: 70px;
-	float: left;
-}
-
-.article__contanierGeneral{
-	overflow: hidden;
-	height: 500px;
-}
-
-.article__contanierRight{
-	margin-top: -60px;
 }

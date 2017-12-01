@@ -1,16 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="img/preview.jpg" />
+
+    <meta name="title" content="" />
+    <meta name="description" content="" />
+    <link rel="image_src" href="img/preview.jpg" />
+
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
-
+    <title>Подбор шрифтов</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" href="img/favicon/favicon-16.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="img/favicon/favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="img/favicon/favicon-48.png" sizes="48x48" type="image/png">
+    <link rel="icon" href="img/favicon/favicon-62.png" sizes="62x62" type="image/png">
+    <link rel="icon" href="img/favicon/favicon-192.png" sizes="192x192" type="image/png">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"><!-- Open Sans -->
+    
     <!-- Bootstrap -->
-    <link href="css/bootstrap.grid.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/slyle.css">
-
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  	<link rel="stylesheet" href="css/style.css"/>
+   
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,53 +37,33 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-      <div class="row ">
-        <div class="title text-center">
-          <h1 class="title_text col-lg-12">Почему с нами работают?</h1>
-        </div>
-
-        <div class="corob text-center">
-          <div class="corob_elem  text-center  text-center col-lg-3"><img src="img/кран.png" alt="">
-            <h2 class="corob_elem_1_h2">
-              Позвольте вашим <br>деньгам работать
-            </h2>
-            <span class="corob_elem_1_span">
-              Проценты по договорам <br> займа выше банковских
-            </span>
-          </div>
-          <div class="corob_elem  text-center col-lg-3"><img src="img/шкатулка.png" alt="">
-            <h2 class="corob_elem_2_h2">
-              Зарабатывайте <br> вместе с нами
-            </h2>
-            <span class="corob_elem_2_span">
-              Мы вкладываем <br> собственные средства
-            </span>
-          </div>
-          <div class="corob_elem  text-center col-lg-3"><img src="img/домик.png" alt="">
-            <h2 class="corob_elem_3_h2">
-              Абсолютная <br> надежность
-            </h2>
-            <span class="corob_elem_3_span">
-              Все договоры займа <br> обеспечены залогом
-            </span>
-          </div>
-          <div class="corob_elem  text-center col-lg-3"><img src="img/зонтик.png" alt="">
-            <h2 class="corob_elem_4_h2">
-              Никаких <br>  рисков
-            </h2>
-            <span class="corob_elem_4_h2">
-              Наша профессиональная <br> деятельность застрахована
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-    
+    <header>
+    	<div class="container">
+  				<div class="text-box"><input type="search" class="form-control" autofocus placeholder="Введите свою фразу"></div>
+  				<div class="fonts">
+  					<p class="resault Open-Sans">Начните писать фразу</p>
+  					<small>Вот так выглядит шрифт <strong>Open Sans</strong></small>
+  					<hr>
+  					<p class="resault Bebas">Начните писать фразу</p>
+  					<small>Вот так выглядит шрифт <strong>Bebas</strong></small>
+  					<hr>
+  					<p class="resault Lato">Начните писать фразу</p>
+  					<small>Вот так выглядит шрифт <strong>Lato</strong></small>
+  					<hr>
+  					<p class="resault Lobster">Начните писать фразу</p>
+  					<small>Вот так выглядит шрифт <strong>Lobster</strong></small>
+  					
+  				</div>
+    	</div>
+    </header>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script>
+    		$('input').keyup(function(){
+    			$('p.resault').text($('input').val())
+    		});
+    </script>
   </body>
 </html>
