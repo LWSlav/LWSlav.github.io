@@ -1,71 +1,277 @@
-@font-face {
-    font-family: 'Bebas';
-    src: url('../fonts/Bebas.eot');
-    src: url('../fonts/Bebas.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Bebas.woff2') format('woff2'),
-        url('../fonts/Bebas.woff') format('woff'),
-        url('../fonts/Bebas.ttf') format('truetype'),
-        url('../fonts/Bebas.svg#Bebas') format('svg');
-    font-weight: normal;
-    font-style: italic;
+a {
+  text-decoration: none;
 }
-
-
-@font-face {
-    font-family: 'Lato';
-    src: url('../fonts/Lato-Regular.eot');
-    src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Lato-Regular.woff2') format('woff2'),
-        url('../fonts/Lato-Regular.woff') format('woff'),
-        url('../fonts/Lato-Regular.ttf') format('truetype'),
-        url('../fonts/Lato-Regular.svg#Lato-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+a:hover {
+  text-decoration: none;
 }
-
-@font-face {
-    font-family: 'Lobster';
-    src: url('../fonts/Lobster.eot');
-    src: url('../fonts/Lobster.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Lobster.woff2') format('woff2'),
-        url('../fonts/Lobster.woff') format('woff'),
-        url('../fonts/Lobster.ttf') format('truetype'),
-        url('../fonts/Lobster.svg#Lobster') format('svg');
-    font-weight: normal;
-    font-style: normal;
+.logo {
+  padding-top: 3%;
 }
-
-
-
-.text-box{
-	padding-top: 2rem;
+.logo__text {
+  padding-left: 10%;
 }
-.result {
-	margin-bottom: 0;
-	margin-top: 3rem;
+.nav__ul {
+  list-style-type: none;
 }
-.fonts {
-	font-size: 2rem;
-	text-align: center;
-	padding: 2rem;
+.nav {
+  padding-top: 2%;
 }
-small {
-	font-size: 1.3rem;
+.nav__li {
+  display: inline-block;
+  padding-right: 2%;
 }
-
-.Open-Sans{
-	font-family: 'Open Sans', sans-serif;
+.nav__a {
+  text-transform: uppercase;
+  color: #202242;
 }
-
-.Bebas{
-	font-family: 'Bebas', sans-serif;
+.nav__a:hover {
+  color: #ffe13e;
 }
-
-.Lato{
-	font-family: 'Lato', sans-serif;
+.CTA {
+  border-left: 1px solid #3b3f6a;
+  padding-top: 1.5%;
+  padding-bottom: 2%;
 }
-
-.Lobster{
-	font-family: 'Lobster', sans-serif;
-	
+.span {
+  font-size: 14px;
+  padding-bottom: 5%;
+  padding-left: none;
+  float: right;
+}
+.CTA__button {
+  border: none;
+  background: #ffe13e;
+  padding: 10px 25px 10px 25px;
+  margin-left: 4%;
+}
+.CTA__phone {
+  border-left: 1px solid #3b3f6a;
+  font-size: 24px;
+  padding: 3px 0px 3px 25px;
+}
+.hrblock {
+  background: #FFFFFF;
+  width: 100%;
+  height: 40px;
+}
+.firstblock {
+  background: url(../img/shar.jpg) no-repeat top center / cover;
+  height: 800px;
+}
+.generalh1 {
+  padding-top: 220px;
+  text-align: center;
+  color: #fff;
+}
+.generalh1 h1 {
+  padding-bottom: 2%;
+}
+.generalh1 h2 {
+  padding-bottom: 2%;
+}
+.generalh1 img {
+  padding-bottom: 7%;
+}
+.formfirstblock {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 1.5% 0.1% 1.5% 0.1%;
+}
+.formfirstsection {
+  text-align: center;
+}
+.formfirstsection input {
+  height: 41px;
+  width: 40%;
+  bottom: none;
+  padding-left: 2%;
+  border: 1px solid #fff;
+}
+.formfirstsection span {
+  padding: 12px 18px 13px 15px;
+  background: #ffe13e;
+  margin: -5px;
+  text-align: center;
+}
+.formfirstsection button {
+  border: none;
+  border-left: 1px solid #fff;
+  background: #ffe13e;
+  height: 41px;
+  color: #fff;
+}
+.generalblockleft {
+  background: #202242;
+}
+.generalblockright {
+  background: #ffe13e;
+}
+.leftblock {
+  padding-top: 120px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.leftblock h3 {
+  color: #fff;
+  font-size: 1.75em;
+  padding-top: 5%;
+}
+.leftblock span {
+  color: #fff;
+  padding-top: 5%;
+}
+.leftblock button {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 2%;
+  background: transparent;
+  margin-top: 7%;
+}
+.rightblock {
+  padding-top: 53px;
+  text-align: center;
+  padding-bottom: 85px;
+}
+.rightblock p {
+  color: #3b3f6a;
+  font-size: 80px;
+  font-weight: 800;
+}
+.rightblock h3 {
+  color: #fff;
+  font-size: 1.75em;
+  padding-top: 1%;
+}
+.rightblock span {
+  color: #fff;
+  padding-top: 5%;
+}
+.rightblock button {
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 2%;
+  background: transparent;
+  margin-top: 7%;
+}
+.threesection {
+  background: url(../img/theebg.jpg) no-repeat center top / cover;
+}
+.threeblock {
+  text-align: center;
+}
+.threeblock h2 {
+  color: #202242;
+  font-size: 2em;
+  font-weight: 600;
+  padding-top: 5%;
+}
+.threeblock h3 {
+  color: #202242;
+  font-size: 1.1em;
+  font-weight: 100;
+  padding-bottom: 5%;
+}
+.blockicon {
+  text-align: center;
+  padding-bottom: 7%;
+}
+.blockicon hr {
+  width: 70px;
+  height: 2px;
+  background: #202242;
+}
+.blockicon h4 {
+  color: #f4d320;
+}
+.blockicon span {
+  color: #202242;
+}
+.fourblock {
+  padding-top: 7%;
+  padding-bottom: 8%;
+}
+.exemplecompany {
+  padding-top: 2.5%;
+}
+.commentblock__text {
+  background: #f5f3f3;
+  text-align: center;
+  padding: 2%;
+}
+.commentblock__text p {
+  font-weight: 600;
+}
+.commentblock {
+  padding-bottom: 7%;
+}
+.commentblock img {
+  margin-top: -12%;
+}
+.fivesection {
+  background: #202242;
+}
+.fiveblock__text h2 {
+  color: #fff;
+  padding-bottom: -10%;
+}
+.fiveblock__text span {
+  color: #67687b;
+}
+.fiveblock {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.fiveblock button {
+  background: #ffe13e;
+  border: none;
+  font-weight: 600;
+  padding: 3%;
+  margin-top: 3%;
+}
+footer {
+  background: #363855;
+}
+.navigation {
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+.menufooter {
+  text-align: right;
+}
+.menufooter ul {
+  list-style-type: none;
+}
+.menufooter h5 {
+  color: #fff;
+  text-align: right;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+.menufooter a {
+  color: #ffffff;
+  border-bottom: 1px solid #fff;
+  padding-left: 10px;
+}
+.menufooter img {
+  padding-top: 50px;
+  cursor: pointer;
+}
+.menufooter span {
+  color: #fff;
+  padding-top: 60px;
+  font-size: 0.7em;
+}
+.footer__icon {
+  text-align: center;
+}
+.footer__icon .footer__img {
+  width: 125px;
+  height: 50px;
+  padding-left: 7.5%;
+  text-align: center;
+  overflow: hidden;
+}
+.footer__icon span {
+  color: #ebebed;
+  padding-top: 2%;
 }
