@@ -1,41 +1,222 @@
-.text-center {
+body {
+  background: url(../img/материал.jpg) center center / cover;
+}
+.contentblock {
+  padding-top: 20%;
+}
+.corobown {
+  background-image: url(../img/водопад.jpeg);
+  height: 30rem;
+  padding: 0;
+  overflow: hidden;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.corobown:hover {
+  border-radius: 30px 70px;
+  transform: skewX(30deg);
+}
+.corobown:hover .hovercorob {
+  transform: translate(0%, 0%) rotate(0deg);
+}
+.corobown .hovercorob {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  transform: translate(100%, 100%) rotate(70deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.corobown .hovercorob .content {
+  width: 100%;
+  height: 100%;
+  color: #fff;
   text-align: center;
+  padding-top: 27%;
 }
-.topblock span {
-  color: #fc6744;
+.corobown .hovercorob .content .btn {
+  color: #fff;
+  width: 15rem;
+  height: 4rem;
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
-.topblock p {
-  color: rgba(0, 0, 0, 0.3);
-}
-.bottomblock {
-  padding-top: 7%;
-}
-.bottomblock__element {
-  padding: 20% 20% 30% 20%;
-  color: rgba(255, 255, 255, 0.9);
-}
-.bottomblock__element i {
-  font-size: 3em;
-}
-.btn {
-  margin: -2.5rem 0rem 0rem 1rem;
-  position: absolute;
-  color: rgba(0, 0, 0, 0.5);
-  background: #fff;
+.corobown .hovercorob .content .btn:hover {
+  background: #D7B7FF;
+  color: #193F22;
   border: none;
-  border-radius: 30px;
-  padding: 1.5rem 0rem 1.5rem 0rem;
-  box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.41);
 }
-.first {
-  background: #4eb2f7;
+.corobtwoo {
+  background-image: url(../img/зверь.jpg);
+  height: 30rem;
+  padding: 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
-.two {
-  background: #c049f8;
+.corobtwoo:hover .rhombus {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  width: 30rem;
+  height: 30rem;
+  transform: translateX(15%) rotate(45deg);
 }
-.three {
-  background: #817eff;
+.corobtwoo .rhombus {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  background: rgba(99, 36, 51, 0.8);
+  border: 1px solid #8FC5CA;
+  width: 0rem;
+  height: 0rem;
+  transform: translateX(15%) rotate(200deg);
+  overflow: hidden;
 }
-.four {
-  background: #f74770;
+.corobtwoo .rhombus .content {
+  transform: rotate(-45deg);
+  width: 30rem;
+  height: 30rem;
+  text-align: center;
+  padding-top: 30%;
+  color: #41ABC6;
+}
+.corobtwoo .rhombus .content .btn {
+  color: #fff;
+  width: 15rem;
+  height: 4rem;
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.corobtwoo .rhombus .content .btn:hover {
+  background: #428A91;
+  border: none;
+}
+.corobthree {
+  background-image: url(../img/пещера.jpg);
+  height: 30rem;
+  overflow: hidden;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  text-align: center;
+  background-position: center;
+  padding: 15rem;
+}
+.corobthree:hover {
+  padding: 0rem;
+}
+.corobthree:hover .hovercorob {
+  padding: 25%;
+  width: 100%;
+  height: 100%;
+}
+.corobthree .hovercorob {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  transform-origin: center center;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  background: radial-gradient(transparent, #78efad);
+}
+.corobthree .hovercorob .content {
+  text-align: center;
+  text-transform: uppercase;
+  color: #FE286E;
+}
+.corobthree .hovercorob .content .btn {
+  color: #fff;
+  width: 15rem;
+  height: 4rem;
+  background: transparent;
+  border: 1px solid #FFFFFF;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.corobthree .hovercorob .content .btn:hover {
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  background: #BF9EBF;
+  border: none;
+}
+.corobfour {
+  background-image: url(../img/2528939.jpg);
+  height: 30rem;
+  overflow: hidden;
+  padding: 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  text-align: center;
+  background-position: center;
+}
+.corobfour:hover .hovercorob {
+  transform: translateY(0%);
+}
+.corobfour .hovercorob {
+  background-image: url(../img/гоблин.jpg);
+  height: 30rem;
+  overflow: hidden;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  text-align: center;
+  background-position: center;
+  transform: translateY(100%);
+  padding: 0;
+}
+.corobfour .hovercorob:hover .content {
+  transform: translateY(0%);
+}
+.corobfour .hovercorob .content {
+  background-image: url(../img/фиона.jpg);
+  height: 30rem;
+  overflow: hidden;
+  text-align: center;
+  background-position: center;
+  transform: translateX(100%);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+  padding-top: 20%;
+  color: #fff;
+  font-size: 1.3em;
+}
+.corobfour .hovercorob .content .btn {
+  width: 400px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.8);
+  transform: rotateY(50deg);
+  border-radius: 20px;
+  border: 0px;
+  color: #fff;
 }
