@@ -4,49 +4,127 @@ a {
 a:hover {
   text-decoration: none;
 }
-.menu {
+ul {
+  list-style-type: none;
+}
+header {
+  padding-top: 3vh;
+}
+.top-header {
   text-align: center;
 }
-.popup-overlay {
-  width: 100vw;
-  height: 100vh;
-  background: rgba(255, 255, 255, 0.0001);
-  display: none;
-  position: fixed;
-  left: 0;
-  transition: background 1s;
+.top-header h3 {
+  text-transform: uppercase;
 }
-.popup-overlay:target {
-  background: rgba(200, 220, 224, 0.1);
-  display: block;
+.feedback {
+  padding-top: 1.3rem;
 }
-.popup-overlay:target + .popup {
-  display: block;
-  transform: translateX(0%);
+.feedback a {
+  color: #363636;
+  font-weight: 600;
+  font-size: 1.3em;
 }
-.popup {
-  overflow: hidden;
-  display: block;
-  height: 100%;
-  background: #fff;
-  position: fixed;
-  transform: translateX(-120%);
-  transition: transform 1s;
-  -webkit-box-shadow: 3px 0px 16px 0px rgba(14, 50, 50, 0.75);
-  -moz-box-shadow: 3px 0px 16px 0px rgba(14, 50, 50, 0.75);
-  box-shadow: 3px 0px 16px 0px rgba(14, 50, 50, 0.75);
+.feedback button {
+  background: transparent;
+  border: 2px solid #363636;
+  border-radius: 10px;
+  color: #363636;
+  padding: 0.5rem 2rem;
+  animation-iteration-count: infinite;
 }
-.popup:target {
-  display: block;
+.feedback button:hover {
+  background: #7BB7CD;
+  border: 2px solid #7BB7CD;
+  color: #fff;
 }
-.popup-clous {
-  float: right;
-  top: 30px;
-  right: 30px;
-  position: absolute;
-  font-size: 1.5em;
-  color: #2DC091;
+.navbar {
+  text-align: center;
+  margin-top: 1rem;
+  background: #292d30;
 }
-.popup-clous:hover {
-  color: #FD2E99;
+.navbar ul li {
+  display: inline-block;
+  padding-right: 2rem;
+}
+.navbar ul li a {
+  color: #fff;
+  font-size: 1.2em;
+  transition: all 1s;
+}
+.navbar ul li a:hover {
+  color: #FE6A9B;
+}
+.description {
+  background-image: url(../img/background.jpg);
+  padding-top: 10%;
+  text-align: center;
+}
+.description h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 4.7em;
+}
+.description h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 1.7em;
+}
+.description h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 1.1em;
+}
+.description .offer {
+  padding-top: 1.8%;
+}
+.description .offer p {
+  color: #fff;
+}
+.description .offer button {
+  background: #059feb;
+  border-radius: 33px;
+  color: #fff;
+  border: none;
+  padding: 1rem 3rem;
+  animation-iteration-count: infinite;
+  text-transform: uppercase;
+  animation-duration: 5s;
+  transition: all 1s;
+  margin-top: 1%;
+}
+.description .offer button:hover {
+  background: #FB74C3;
+}
+.description__img {
+  margin-top: -13rem;
+  margin-left: 30rem;
+}
+.mouse {
+  padding-top: 12rem;
+  padding-bottom: 17rem;
+}
+.mouse p {
+  color: #fff;
+}
+.contemt {
+  text-align: center;
+  padding-top: 3rem;
+  padding: 0 10rem;
+}
+.contemt h1 {
+  color: #363636;
+}
+.contemt hr {
+  width: 20rem;
+  height: 0.3rem;
+  background: #059feb;
+}
+.contemt .card {
+  padding: 5rem;
+}
+.contemt .card p {
+  font-size: 1.3em;
 }
