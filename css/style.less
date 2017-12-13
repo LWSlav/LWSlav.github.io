@@ -1,124 +1,49 @@
 body{
+	background-image: url(../img/bg.png);
+	background-size: cover;
 	margin: 0;
 	padding: 0;
 }
 a{
 	text-decoration: none;
+	color: #fff;
+	font-size: 1.3em;
 	&:hover{
+		text-decoration: none;
+	}
+	&:active{
 		text-decoration: none;
 	}
 }
 
-ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-.burger{
-	z-index: 3;
-	display: block;
-	width: 100px;
-	height: 100px;
-	box-shadow:0px 1px 30px 0px rgba(50, 50, 50, 0.75);
-	border-radius: 50%;
-	background: #D5CDED;
-	position: fixed;
-	top: 1rem;
-	left: 5rem;
-	span, span:before, span:after{
-		display: block;
-		position: absolute;
-		width: 50px;
-		height: 3px;
-		background: #000000;
-		margin-left: 50%;
-		left: -25px;
-		margin-top: 50%;
-		top: -1.5px;
-	}
-	span:before{
-		transition: all 1s;
-		content: "";
-		margin-top: -10px;
-	}
-	span:after{
-		transition: all 1s;
-		content: "";
-		margin-top: 14px;
-	}
-}
-.burger_active{
-		span{
-			background: transparent;
-			&:before{
-				content: "";
-				margin-top: 0px;
-				transform: rotate(135deg);				
-			}
-			&:after{
-				content: "";
-				margin-top: 0px;
-				transform: rotate(-135deg);	
-			}
-		}
-}
-
-//menu
-
-.nav{
-
-	z-index: 1;
-	position: fixed;
+.header{
 	width: 100vw;
-	height: 100vh;
-	background: rgba(255, 87, 126, .4);;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	left: 100vw;
-	transition: all 1s;
-	.menu{
-		text-align: center;
-		height: 100vh;
-		width: 100vw;
-		ul{
-			padding-top: 20vh;
-			height: 50vh;
-			li{
-				width: 100vw;
-				height: 20%;
-				a{
-					line-height: 3.5;
-					display: block;
-					width: 100%;
-					height: 100%;
-					vertical-align: center;
-					font-size: 1.9em;
-					transition: all 1s;
-					&:hover{
-						background: #567977;
-						color: #F8FFCC;
-						transform: rotate(-15deg);
-					}
-				}
-			}
-		}
+	height: 20vh;
+	text-align: center;
+	h1{
+		line-height: 5vh;	
+		color: #0bbaf0;
+	}
+	p{
+		color: #0bbaf0;
+		font-size: 1.1em;
 	}
 }
 
-.nav-active{
-	left: 0vw;
+.general-accordion{
+	display: flex;
+	justify-content: center; 
 }
-
-section{
-	height: 100vh;
+.accerdion{
+	width: 60vw;
 	text-align: center;
-	font-size: 1.9em;
-	p{
-		margin: 0;
-		padding: 0;
-		line-height: 5;
-
+	.tab{
+		display: block;
+		height: 10vh;
+		line-height: 10vh;
+		background: #0bbaf0;
+	}
+	.content{
+		display:none;
 	}
 }

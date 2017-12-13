@@ -1,14 +1,10 @@
 $(document).ready(function() {
-	$('.burger').click(function() {
-		$('.burger').toggleClass('burger_active');
+	$('.tab').click(function() {
+		var content = $(this).attr('href');
+		console.log(content);
+		$('.content').hide(300);
+		$(content).show(300);
+		
 	});
+});
 
-	$('.burger').click(function() {
-		$('.nav').toggleClass('nav-active');
-	});
-
-	$('li a').click(function() {
-		$('.burger').removeClass('burger_active');
-		$('.nav').removeClass('nav-active');
-	});
-})
