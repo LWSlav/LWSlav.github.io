@@ -1,0 +1,17 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  padding: 0;
+  margin: 0;
+}
+.img {
+  height: 90vh;
+}
+.img h1 {
+  line-height: 90vh;
+  text-align: center;
+  font-size: 4em;
+  color: #fff;
+}
