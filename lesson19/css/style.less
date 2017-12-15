@@ -1,0 +1,110 @@
+body{
+	background-image: url(../img/bg.jpg);
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+	&:hover{
+		text-decoration: none;
+	}
+}
+.corob{
+	padding: 300px 500px;
+	#button-form{
+	background: #E0D6A7;
+	border: none;
+	padding: 30px 40px;
+	border-radius: 7px;
+	font-size: 1.4em;
+		&:hover{
+			outline: none;
+		}
+		&:focus{
+			outline: none;
+		}
+	}
+
+	#button-text{
+		margin-left: 20rem;
+		background: #725674;
+		border: none;
+		color: #fff;
+		padding: 30px 40px;
+		border-radius: 7px;
+		font-size: 1.4em;
+		&:hover{
+			outline: none;
+		}
+		&:focus{
+			outline: none;
+		}
+	}
+}
+
+.description{
+		display: none;
+		width: 20vw;
+		min-height: 40vh;
+		background: #fff;
+		position: fixed;
+		left: 50%;
+		margin-left: -10vw;
+		top: 10vh;
+		text-align: center;
+		padding-top: 3rem;
+		a{
+			margin-left: 80%;
+		}
+		form{
+			padding-top: 40px;
+			input{
+				margin-bottom: 20px;
+				width: 70%;
+				height: 4rem;
+				border-radius: 7px;
+				border: 1px solid #8F8F8F;
+				padding-left: 5px;
+				transition: all .2s;
+				&:focus{
+					outline: none;
+					border: 1px solid #9FFBE9;
+					margin-top: -2px;
+				}
+			}
+			button{
+				border: none;
+				background: #9BEDD1;
+				color: #4F5960;
+				padding: 10px 80px;
+				border-radius: 5px;
+				transition: all .5s;
+				margin-bottom: 40px;
+				&:hover{
+					background: #6957C3;
+					border-radius: 20px;
+					color: #fff;
+				}
+			}
+		}
+}
+
+
+.text{
+	position: fixed; 
+	width: 40vw;
+	min-height: 20vh;
+	left: 50%;
+	margin-left: -20vw;
+	background: #DCEEF7;
+	top: 20rem;	
+	padding: 20px;
+	display: none;
+	#claz{
+		color: #F33F3F;
+		margin-left: 98%;
+	}
+}
+
+label.error{
+	color: red;
+}
