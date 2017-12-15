@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.corob {
+  height: 75vh;
+  background: #E0A0A0;
+}
+.section-two {
+  padding-top: 15rem;
+}
+.section-two .smail {
+  background: url(../img/smail.png) no-repeat center;
+  height: 70px;
+}
+.section-two .span-text {
+  text-align: center;
+  padding-top: 3rem;
+}
+.section-two h1 {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 3.3em;
+}
+.section-two h1 span {
+  color: #1abc9c;
+}
+.section-two .block-icon {
+  padding-bottom: 10vh;
+  padding-top: 5vh;
+}
+.section-two .item {
+  text-align: center;
+}
+.video {
+  padding: 0;
+}
+.no-video .video-container video,
+.touch .video-container video {
+  display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+  display: block !important;
+}
+.video-container {
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: #000;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.video-container .poster img {
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+.video-container .filter {
+  z-index: 100;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+}
+.video-container video {
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+}
+.video-container video.fillWidth {
+  width: 100%;
+}
