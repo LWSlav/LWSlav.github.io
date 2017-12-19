@@ -1,0 +1,15 @@
+/*
+Theme Name: Freelance - my Life
+Theme URL: http://freelanswork.me/
+Description: Тема для урока на Wordpress
+Author: Lokosov Vyacheslav
+Author URL: http://vk.com/
+Version: 1.0
+Tags: freelanse, work, free
+License: Attribution-shreAlike 3.0 Unported(CC BY-SA 3.0)
+License URL: http://creativecommons.org/licenses/by-sa/3.0/
+Просто тема для урока.*/
+
+@import url('vendor/bootstrap/css/bootstrap.min.css');
+@import url('vendor/font-awesome/css/font-awesome.min.css');
+@import url('css/freelancer.min.css');
