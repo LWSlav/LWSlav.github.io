@@ -1,0 +1,48 @@
+body {
+  background: rgba(189, 209, 222, 0.1);
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.global {
+  box-shadow: 0px 0px 40px rgba(77, 77, 77, 0.1);
+  padding: 83px 98px;
+  background: #fff;
+  margin-top: 5vh;
+  height: auto;
+}
+.global .content h1 {
+  font-size: 40px;
+}
+.global .content p {
+  font-size: 30px;
+}
+.global .content .content__prise {
+  color: #dfa913;
+  font-size: 80px;
+}
+.global .content .content__level {
+  margin-left: 5rem;
+}
+.global .content .content__text {
+  font-size: 2em;
+}
+.global .content .btn {
+  padding-top: 40px;
+  padding-left: 20px;
+}
+.global .content .glopart-buy-btn {
+  padding: 20px 40px;
+  background: #dfa913;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 30px;
+  transition: all .5s;
+}
+.global .content .glopart-buy-btn:hover {
+  background: #C0F976;
+  box-shadow: 0px 0px 40px rgba(192, 249, 118, 0.5);
+}
