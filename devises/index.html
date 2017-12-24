@@ -11,7 +11,7 @@
 </head>
 <body>
 	
-	<header>
+	<header id="header">
 		<div class="container">
 			<div class="row">
 				<div class="nav col-md-12">
@@ -21,10 +21,10 @@
 
 					<div class="nav__manu col-md-8">
 						<ul>
-							<li><a href="#">Solutions</a></li>
-							<li><a href="#">Products</a></li>
-							<li><a href="#">Portfolio</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="#Solutions">Solutions</a></li>
+							<li><a href="#Products">Products</a></li>
+							<li><a href="#Portfolio">Portfolio</a></li>
+							<li><a href="#Contact">Contact</a></li>
 						</ul>
 					</div>
 				</div>
@@ -43,11 +43,9 @@
 				</div> 
 			</div>
 		</div>
-
-		<img class="arrow_left" src="img/arrow.png" alt="">
-		<img class="arrow_right" src="img/arrow.png" alt="">
 	</header>
-	
+
+<a id="Solutions" href="#"></a>	
 	<section class="section-one">
 		<div class="container">
 			<div class="row">
@@ -72,7 +70,7 @@
 						<div class="wind__img-1 col-sm-12 col-md-12 col-xs-12">
 							
 						</div>
-
+			<a id="Products" href="#"></a>
 						<div class="wind__content">
 							<h2>Lorem Ipsum is simply dummy text</h2>
 
@@ -129,6 +127,7 @@
 		</div>
 	</section>
 
+	
 	<div class="section-two">
 		<div class="container">
 			<div class="row">
@@ -156,24 +155,24 @@
 		</div>
 	</div>
 	
-
+<a id="Portfolio" href="#"></a>	
 	<div class="section-three">
 		<div class="container">
 			<div class="row">
 				<div class="section-form col-md-12">
 					<div class="formOne col-sm-5 col-md-5">
 						<p>Member login</p>
-						<form action="#" method="get">
-							<input type="text" placeholder="User name">
-							<input type="text" placeholder="Password">
+						<form id="formOne__form" action="smartOne.php" method="get">
+							<input name="user_name" type="text" placeholder="User name">
+							<input name="user_password" type="password" placeholder="Password">
 							<button>Log me in</button>
 						</form>
 					</div>
 
 					<div class="formTwo col-sm-6 col-sm-offset-1 col-md-offset-1 col-md-5">
 						<p>Subscribe to our weekly newsletter</p>
-						<form action="#" method="get">
-							<input type="email" placeholder="email address">
+						<form id="formTwo__form" action="smartTwo.php" method="get">
+							<input name="user_email" type="email" placeholder="email address">
 							<button>Subscribe</button>
 						</form>
 					</div>
@@ -181,7 +180,7 @@
 			</div>
 		</div>
 	</div>
-	
+<a id="Contact" href="#"></a>		
 	<footer>
 		<div class="container">
 			<div class="row">
@@ -235,6 +234,11 @@
 
 
 	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/jquery-3.2.1 (1).js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/valid.js"></script>
+	<script src="js/headhesive.min.js"></script>
 	<script src="js/script.js"></script>
 </body>
 </html>

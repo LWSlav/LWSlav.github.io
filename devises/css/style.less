@@ -22,6 +22,13 @@ a{
 	&:hover{
 		text-decoration: none;
 	}
+	&:active{
+		text-decoration: none;
+	}
+
+	&:focus{
+		text-decoration: none;
+	}
 }
 
 ul{
@@ -30,13 +37,30 @@ ul{
 
 //Стили главного экрана
 header{
-	background: url(../img/bg.png) no-repeat;
 	background-size: cover;
 	position: relative;
+	padding-top: 56px;
+}
+
+//Липкое меню
+.headhesive{
+	background: rgba(46, 51, 54, .8);;
+	position: fixed;
+	width: 100%;
+	transform: translateY(-120%);
+	transition: all .5s;
+	padding: 10px 0px;
+}
+
+.headhesive--stick{
+	transform: translateY(0%);
+	z-index: 999;
+	padding: 5px 20%;
+	height: 120px;
 }
 
 .nav{
-	padding-top: 56px;
+	
 	padding-bottom: 56px;
 }
 .nav__logo{
@@ -49,6 +73,17 @@ header{
 		li{
 			display: inline-block;
 			margin-right: 50px;
+			color: #f3f6f6;
+			font-size: 22.6px;	
+			font-family: "SegoeWP-Light";
+			cursor: pointer;
+			overflow: hidden;
+			transform: translateY(0px);
+			transition: all .5s;
+			&:hover{
+				transform: translateY(-10px);
+			}
+
 			a{
 				color: #f3f6f6;
 				font-size: 22.6px;	
@@ -101,19 +136,6 @@ header{
 	}
 }
 
-.arrow_left{
-	left: 93px;
-	top: 288px;
-	position: absolute;
-	cursor: pointer;
-	transform: rotate(180deg);
-}
-.arrow_right{
-	right: 93px;
-	top: 288px;
-	position: absolute;
-	cursor: pointer;
-}
 
 .section-one{
 	padding-top: 100px;
@@ -208,7 +230,7 @@ header{
 }
 
 .choose__img{
-	background: url(../img/devices.png) no-repeat center center / cover;
+	background: url(../img/IT.jpg) no-repeat center center / cover;
 	height: 380px;
 }
 
@@ -279,6 +301,10 @@ header{
 		}
 	}
 }
+input.error{
+	outline: 2px solid red;
+}
+
 
 .formTwo{
 	background: #01d4f3;
