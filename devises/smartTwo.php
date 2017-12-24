@@ -1,6 +1,6 @@
 <?php 
-$email=$_GET['user_email'];
-$form = $_GET['form'];
+$email=$_POST['user_email'];
+$form = $_POST['form'];
 $message = 'Клиент прислал email: '.htmlspecialchars($email);
 require_once('phpmailer/PHPMailerAutoload.php');
 $mail = new PHPMailer;
