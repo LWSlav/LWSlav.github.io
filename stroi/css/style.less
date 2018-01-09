@@ -198,6 +198,7 @@ nav{
 				}
 				&:focus{
 					color: #3e3e3e;
+					background: #fdffe0;
 				}
 			}
 		}
@@ -304,11 +305,15 @@ h1{
 
 // Блок с услугами 
 .amenities{
-	background: url(../img/rab.jpg) no-repeat center center / cover;
+	background-image: url(../img/add-1.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
 	padding-top: 80px;
 	padding-bottom: 85px;
-
+	transition: all .5s;
 }
+
 
 .amenities__accordion{
 	animation-delay: .3s;
@@ -351,6 +356,7 @@ h1{
 		margin:0;
 		font-weight:400;	
 		margin-bottom: 3.5714rem;
+		transition: all .5s;
 	}
 	p{
 		font-size: 1.3286rem;
@@ -375,20 +381,21 @@ h1{
 }
 
 .section-fore{
-	width: 100%;
+
 }
 
 .accordSlider{
 	display: flex;
-	height: 444px;
 	justify-content: space-between;
 	padding:0;
+	overflow-x: hidden;
 }
 
 .slide{
 	flex-basis: 25%;
 	transition: all .4s;
 	position: relative;
+	height: 444px;
 	&:hover{
 		flex-basis: 95%;
 		p{
@@ -408,7 +415,7 @@ h1{
 		z-index: 4;
 		position: absolute;
 		top: 40%;
-		left: 40%;
+		left: 35%;
 		color: #fff;
 		font-size: 1.8571rem;
 		opacity: 0;

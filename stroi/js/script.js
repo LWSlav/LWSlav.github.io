@@ -13,9 +13,19 @@ $(document).ready(function() {
 		$('.nav_active').toggleClass('nav_active-block');
 	});
 
-	//$('li a').click(function() {
-	//	$('.burger').removeClass('burger_active');
-		//$('.nav').removeClass('nav-active');
-	//});
+	$('#acc-1').click(function() {
+		$('.amenities').css("background-image", "url('img/add-1.jpg')");
+		$('.amenities__content h2').text("Ваш дом под ключ");
+	});
+
+	$('#acc-2').click(function() {
+		$('.amenities').css("background-image", "url('img/add-2.jpg')");
+		$('.amenities__content h2').text("Обустроем любой участок");
+	});
+
+	$('#acc-3').click(function() {
+		$('.amenities').css("background-image", "url('img/rab.jpg')");
+		$('.amenities__content h2').text("Ремонт и отделка");
+	});
 
 });
