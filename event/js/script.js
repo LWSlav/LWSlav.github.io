@@ -35,11 +35,16 @@ jQuery(document).ready(function() {
 
 	 $('.button-1, .Zakaz').click(function() {
 	 	$('.clous').show(500);
-	 	$('.popup').css('top', '100px');
+	 	$('.popup').css('top', '50px');
 	 });
 
 	 $('.navfixed').click(function() {
 	 	$('.navfixed span').toggleClass('navActive');
 	 	$('nav').toggleClass('nav-manuActive');
 	 });
+
+	 $('.accord-li li').click(function() {
+	 	$('.accord-li li').removeClass('activeAccord');
+	 	$(this).toggleClass('activeAccord');
+	 })
 });

@@ -10,11 +10,13 @@
 		z-index: 555;
 		transition: all 1s;
 		ul{
+			height: 100%;
 			text-align: center;
 			padding-top: 10%;
 			li{
+				margin-bottom: 20px;
 				display: block;
-				line-height: 200%;
+				line-height: 90%;
 				font-size: 5rem;
 			}
 		}
@@ -92,6 +94,28 @@
 }
 
 @media screen and (max-width: 700px){
+	.offer, .call-offer, .project-h1, .accord-block{
+		text-align: center;
+	}
+	.section-one{
+		h2{
+			font-size: 2.7rem;
+			line-height: 45px;
+		}
+	}
+	.content-block{
+		font-size: 1.8rem;
+		padding: 30px 25px;
+	}
+	.Benefits{
+		h1{
+			font-size: 2.9rem;
+			line-height: 40px;
+		}
+	}
+	.Benefits .ficha{
+		font-size: 2.3rem;
+	}
 	.arrows{
 		display: none !important;
 	}
@@ -107,6 +131,45 @@
 		margin-left: 0;
 		padding: 40px 25px;
 	}
+
+	.slide-content{
+		min-height: 150px;
+		h3{
+			font-size: 2rem;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			line-height: 20px;
+			height: auto;
+		}
+		h4{
+			font-size: 1rem;
+		}
+	}
+
+	.X-clous{
+		top: 10px;
+		right: 20px;
+	}
+
+	.popup{
+		padding: 20px 30px;
+		width: 300px;
+		left: 50%;
+		margin-left: -150px;
+		h1{
+			font-size: 2rem;
+		}
+		form{
+			input[type='text'],input[type='tel']{
+				margin-bottom: 20px;
+				font-size: 1.6rem;
+			}
+			input[type='button']{
+				font-size: 2.3rem;
+			}
+		}
+	}
+
 }
 
 @media screen and (max-width: 400px){
@@ -133,5 +196,14 @@
 			text-align: center;
 			font-size: 3rem;
 		}
+	}
+
+	.navfixed{
+		top: 0;
+		right: 0;
+	}
+
+	.items-comant{
+		height: 400px;
 	}
 }
