@@ -207,7 +207,7 @@ nav{
 }
 
 .project-slide{
-	padding-top: 60px;
+	padding-top: 10px;
 	padding-bottom: 30px;
 }
 
@@ -282,16 +282,31 @@ nav{
 
 .accord-block{
 	padding-top: 70px;
+	position: relative;
+	z-index: 1;
 	padding-bottom: 70px;
-	background-image: url(../img/acoord-1.jpg);
+	background-image: url(../img/li-1.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
+	transition: all .5s;
+	&:after{
+		position: absolute;
+		background: rgba(0, 0, 0, .7);
+		content: '';
+		display: block;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 5;
+	}
 }
 
 .accord-h1{
 	color: #fff;
 	font-size: 4rem;
+	z-index: 6;
 }
 
 .activeAccord{
@@ -300,6 +315,7 @@ nav{
 }
 
 .accord-li{
+	z-index: 9;
 	li{
 		margin-bottom: 20px;
 		display: inline-block;
@@ -312,12 +328,19 @@ nav{
 }
 
 .content-block{
+	z-index: 24;
 	margin-top: 30px;
 	padding: 70px 55px;
 	background: rgba(43, 43, 43, .72);
 	font-size: 2.3875rem;
 	color: #fff;
 	font-weight: 300;
+	h2{
+		display: none;
+	}
+	h2:nth-child(1){
+		display: block;
+	}
 }
 
 .Benefits{
@@ -517,20 +540,26 @@ footer{
 }
 
 .items-comant{
-	position: relative;
-	padding: 0;
-	height: 500px;
-	overflow: hidden;
-	&:hover{
-		.comand-content{
-			transform: translateX(0%);
+	height: 300px;	
+	margin-bottom: 40px;	
+	.item-comand-img{
+		position: relative;
+		width: 300px;
+		overflow: hidden;
+		height: 100%;
+		margin: 0 auto;
+		img{
+			display: block;
+			width: 300px;
+			height: 300px;
+		}
+		&:hover{
+			.comand-content{
+				transform: translateX(0%);
+			}
 		}
 	}
-	img{
-		display: block;
-		width: 100%;
-		height: 100%;
-	}
+	
 	.comand-content{
 		position: absolute;
 		width: 100%;
@@ -582,4 +611,154 @@ footer{
 		height: 100%;
 		background: rgba(255, 255, 255, .8);
 	}
+}
+
+// Страница цен и услуг
+
+.ptise-header{
+	padding-bottom: 40px;
+	background: rgba(38, 38, 38, .6);
+}
+.prise-prise{
+	position: relative;
+}
+.prise-h1{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 4rem;
+}
+
+.prise-arrow{
+	margin-top: 140px;
+}
+
+
+.prise-slide-h1{
+	font-size: 3.5rem;
+	font-weight: 300;
+	font-style: italic;
+	margin-top: 8%;
+	margin-bottom: 0;
+}
+
+.prise-slide-P{
+	font-weight: 900;
+	font-size: 3.1rem;
+	margin: 2%	;
+}
+
+.prise-slide-h5{
+	font-size: 2.5rem;
+	font-weight: 300;
+	font-style: italic;
+	text-align: center;
+}
+
+.prise-dop-block{
+	position: relative;
+	padding-bottom: 40px;
+}
+
+.priseDop-block{
+	height: 500px;
+	overflow: hidden;
+	position: relative;
+	transition: all .6s;
+	img{
+		text-align: center;
+		transition: all .6s;
+		width: 100%;
+		height: 70%;
+		z-index: 55;
+	}
+	p{
+		display: block;
+		height: 30%;
+		font-size: 2.4rem;
+		text-align: center;
+		margin: 0;
+		margin-top: 2%;
+	}
+}
+
+// портфолио
+
+.history{
+	margin-bottom: 40px;
+	position: relative;
+}
+.history-h2{
+	padding-left: 20px;
+	width: 100%;
+	margin-bottom: 80px;
+}
+.portfolio-h1{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 3rem;
+	margin-bottom: 70px;
+}
+
+.history-slide{
+	width: 100%;
+	margin: 0 auto;
+	height: 500px;	
+	ul{
+		display: flex;
+		width: 100%;
+		justify-content: center;
+		height: 500px;
+		li{
+			flex-basis: 25%;
+			height: 100%;
+			transition: all .5s;
+			border: 1px solid #08657f;
+			img{
+				width: 100%;
+				height: 100%;
+			}
+			&:hover{
+				flex-basis: 200%;
+				box-shadow: 1px 1px 20px #000;
+			}
+		}
+
+	}
+}
+
+// Контакты
+
+.contacts-string{
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+.h1-contacts{
+	padding-bottom: 50px;
+	font-weight: 900;
+	color: #2c8098;
+	font-size: 4.7rem;
+}
+
+.contacts-info{
+	p{
+		font-size: 3rem;
+		font-weight: 300;
+		color: #404040;
+	}
+}
+
+.contacts-graf{
+	text-align: center;
+	p{
+		font-size: 3rem;
+		font-weight: 300;
+		color: #2c8098;
+		font-style: italic;
+	}
+}
+
+.article-map{
+	height: 200px;
+	background: #156387;
 }

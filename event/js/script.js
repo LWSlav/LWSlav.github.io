@@ -19,8 +19,8 @@ function formClick(form) {
 };
 
 jQuery(document).ready(function() {
-	 $('.project-slide').slick({
-	 	autoplay: true,
+	 $('.project-slide, .portfolio-slide-foto').slick({
+	 	autoplay: false,
 	 	autoplaySpeed: 1000,
 	 	speed: 1500,
 	 	arrows: true,
@@ -46,5 +46,7 @@ jQuery(document).ready(function() {
 	 $('.accord-li li').click(function() {
 	 	$('.accord-li li').removeClass('activeAccord');
 	 	$(this).toggleClass('activeAccord');
-	 })
+	 });
+
+	 
 });

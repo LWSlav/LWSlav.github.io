@@ -80,6 +80,10 @@
 		margin-bottom: 40px;
 	}
 
+	.prise-arrow{
+		bottom: 40%;
+	}
+
 	footer{
 		text-align: center;
 	}
@@ -90,6 +94,13 @@
 
 	.form{
 		font-size: 4.5rem;
+	}
+
+	.contacts-string{
+		text-align: center;
+		.h1-contacts{
+			padding-bottom: 20px;
+		}
 	}
 }
 
@@ -134,15 +145,19 @@
 
 	.slide-content{
 		min-height: 150px;
-		h3{
+		h3, .prise-slide-h1{
 			font-size: 2rem;
 			margin-top: 10px;
 			margin-bottom: 10px;
 			line-height: 20px;
 			height: auto;
 		}
-		h4{
-			font-size: 1rem;
+		p{
+			font-size: 1.7rem;
+
+		}
+		h4, .prise-slide-h5{
+			font-size: 1.5rem;
 		}
 	}
 
@@ -169,6 +184,28 @@
 			}
 		}
 	}
+	.history-slide{
+		ul{
+			flex-direction: column;
+			li{
+				height: 50px;
+				width: 80%;
+			}
+		}
+	}
+
+}
+
+@media screen and (max-width: 770px){
+	.priseDop-block{
+		float: left;
+		width: 100%;
+		text-align: center;
+		img{
+			width: 60%;
+		}
+	}
+
 
 }
 
@@ -206,4 +243,21 @@
 	.items-comant{
 		height: 400px;
 	}
+
+	.priseDop-block{
+		img{
+			width: 90%;
+		}
+	}
+
+	.history-slide{
+		ul{
+			flex-direction: column;
+			li{
+				height: 50px;
+				width: 100%;
+			}
+		}
+	}
 }
+
