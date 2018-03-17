@@ -1,0 +1,187 @@
+@media screen and (max-width: 1000px){
+	.fact{
+		padding-top: 10px;
+	}
+	.fact-text h4{
+		margin: 0;
+		height: auto;
+		margin-top: 50px;
+	}
+
+	.three{
+		display: table;
+	    width: 100%;
+	}
+
+	.three-text{
+		display: table-footer-group;
+		padding: 10px 20px;
+	}
+
+	.three-text h4{
+		padding: 10px 40px;
+	}
+
+	.three-text p{
+		padding: 10px 40px;
+	}
+
+	.foto{
+		display: table-header-group;
+	}
+	.foto img{
+		padding-bottom: 40px;
+		width: 60%;
+		margin-left: 20%;
+	}
+
+	.stag{
+		width: 48%;
+	}
+
+	.fife h1 span:first-child{
+		display: none;
+	}
+
+	.fife h1 span{
+		display: block;
+		margin-top: 30px;
+		margin-left: calc(50% - 40px);
+	}
+
+	.prises{
+		margin: 0;
+		margin-left: 20%;
+		width: 60%;
+		margin-bottom: 40px;
+	}
+
+	.fotoHover{
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 770px){
+	.description{
+		text-align: center;
+		padding-bottom: 40px;
+	}
+
+	.head__col{
+		text-align: center;
+	}
+
+	.two h1 span:first-child{
+		display: none;
+	}
+
+	.two h1 span{
+		display: block;
+		margin-top: 30px;
+		margin-left: calc(50% - 40px);
+	}
+
+	.stag{
+		margin-left: 15%;	
+		width: 70%;
+	}
+
+	footer{
+		text-align: center;
+	}
+
+	.footer-phone{
+		text-align: center;
+		padding-top: 50px;
+	}
+}
+
+@media screen and (max-width: 640px){
+	.offer h1{
+		font-size: 3.7rem;
+	}
+	.offer h4{
+		font-size: 1.6rem;
+	}
+
+	.form-first form input{
+		margin: 0;
+	}
+
+	.form-first form button{
+		margin-top: 40px;
+	}
+	
+	.prise h1 span:first-child{
+		display: none;
+	}
+
+	.prise h1 span{
+		display: block;
+		margin-top: 30px;
+		margin-left: calc(50% - 40px);
+	}
+
+	.fore h1{
+		font-size: 2.6rem;
+	}
+
+}
+
+@media screen and (max-width: 500px){
+	.prises{
+		width: 96%;
+		margin-left: 2%;
+	}
+
+	.stag{
+		margin-left: 5%;	
+		width: 90%;
+	}
+
+	.sex h1{
+		font-size: 2.9rem;
+	}
+
+	.popup{
+		width: 360px;
+		left: 50%;
+		margin-left: -180px;
+	}
+}
+
+@media screen and (max-width: 350px){
+	.offer h1{
+		font-size: 3.2rem;
+	}
+
+	.info-first a:last-child{
+		display: block;
+		padding-top: 40px;
+	}
+	.popup{
+		width: 300px;
+		left: 50%;
+		margin-left: -150px;
+	}
+
+	.popup h1{
+		font-size: 2rem;
+	}
+
+	.popup form .button__popup{
+		font-size: 1.5rem;
+		width: 98%;
+		margin-left: 1%;
+	}
+
+}
+
+@media screen and (max-width: 320px){
+	.form-first form input{
+		width: 250px;
+	}
+}
+
+
